@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
+require 'Haml'
 
 get '/' do 
-  "This is Sinatra"
+  "This is Sinatra!"
 end
