@@ -3,5 +3,5 @@ require 'sinatra'
 require 'Haml'
 
 get '/' do 
-  "This is Sinatra!"
+  haml :index
 end
